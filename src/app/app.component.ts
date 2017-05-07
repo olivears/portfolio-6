@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {PageScrollConfig} from 'ng2-page-scroll';
 
 @Component({
   selector: 'app-root',
@@ -31,4 +32,8 @@ export class AppComponent {
     imageAlt: 'Preview site streaming',
     tags: ['Sass', 'jQuery', 'API']
   }];
+
+  constructor() {
+    PageScrollConfig.defaultDuration = 400;
+  }
 }

@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { MouseComponent } from './mouse/mouse.component';
 import { ProjectComponent } from './project/project.component';
+import { Ng2PageScrollModule } from 'ng2-page-scroll';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectComponent } from './project/project.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    Ng2PageScrollModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
