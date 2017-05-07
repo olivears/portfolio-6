@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
+import { MouseComponent } from './mouse/mouse.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    MouseComponent
   ],
   imports: [
     BrowserModule,

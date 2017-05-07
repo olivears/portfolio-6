@@ -1,0 +1,29 @@
+.mouse-outline {
+    border: 2px solid white;
+    background: none;
+    width: 24px;
+    height: 40px;
+    border-radius: 12px;
+    padding-top: 6px;
+    position: fixed;
+    bottom: 20px;
+    right: 36px;
+}
+.mouse-outline .mouse-scroll {
+    width: 4px;
+    height: 10px;
+    border-radius: 2px;
+    background: white;
+    margin: auto;
+    animation: mouse-scroll 3.4s infinite;
+}
+@keyframes mouse-scroll {
+    0%, 70%{
+        margin-top: 0px;
+        opacity: 1;
+    }
+    100% {
+        margin-top: 8px;
+        opacity: 0;
+    }
+}
