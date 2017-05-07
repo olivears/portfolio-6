@@ -1,18 +1,18 @@
 .main-wrapper {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: stretch;
-    padding: 15px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 15px;
+  min-height: 500px;
 }
-@media(min-width: 769px) {
-    .main-wrapper {
-        min-height: 100vh;
-        padding: 30px 60px;
-    }
+@media(min-width: 1366px) {
+  .main-wrapper {
+    height: 100vh;
+  }
 }
-@media(min-width: 1013px) {
-    .main-wrapper {
-        padding: 60px 100px;
-    }
+@media(min-width: 1024px) {
+  .main-wrapper {
+    padding: 60px 100px;
+  }
 }

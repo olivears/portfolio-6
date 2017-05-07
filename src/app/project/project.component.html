@@ -1,0 +1,24 @@
+<div class="wrapper box-shadow">
+  <div class="header">
+    <div class="titles">
+      <h1 class="title">{{data.title}}</h1>
+      <h4 class="subtitle">{{data.subtitle}}</h4>
+    </div>
+    <ul class="tags">
+      <li *ngFor="let tag of data.tags" class="tag">{{tag}}</li>
+    </ul>
+  </div>
+
+  <div class="content">
+
+    <div class="description">
+      {{data.text}}
+    </div>
+
+    <div class="image">
+      <img src="../../assets/images/{{data.image}}" alt="{{imageAlt}}">
+    </div>
+
+  </div>
+  <a class="see-button box-shadow" href="{{link}}">Voir</a>
+</div>

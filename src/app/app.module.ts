@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { MouseComponent } from './mouse/mouse.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SocialMediaComponent,
-    MouseComponent
+    MouseComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

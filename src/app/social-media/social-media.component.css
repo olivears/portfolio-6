@@ -1,35 +1,38 @@
 :root {
-    display: block;
+  display: block;
 }
 .social-links {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 60px;
-    line-height: 60px;
-    display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #505050;
+  justify-content: space-around;
+}
+.social-links>a {
+  color: inherit;
+  padding: 0 20px;
+  text-align: center;
+  flex: 1;
+}
+.social-links>a:hover {
+  color: #70edab;
+  background: #606060;
+}
+@media(min-width: 1025px) and (orientation: landscape) {
+  .social-links {
+    background: none;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.social-links > a {
-    color: inherit;
-    padding: 0 20px;
-    text-align: center;
-}
-.social-links > a:hover {
+  }
+  .social-links>a {
+    flex: 0;
+  }
+  .social-links>a:hover {
     color: #505050;
-}
-@media(max-width: 1024px) {
-    .social-links {
-        background: #505050;
-        justify-content: space-around;
-    }
-    .social-links > a {
-        flex: 1;
-    }
-    .social-links > a:hover {
-        color: #70edab;
-        background: #606060;
-    }
+    background: none;
+  }
 }
