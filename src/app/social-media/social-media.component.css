@@ -4,15 +4,32 @@
 .social-links {
     position: fixed;
     bottom: 0;
-    left: 50%;
+    left: 0;
     height: 60px;
     line-height: 60px;
-    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .social-links > a {
     color: inherit;
-    margin: 0 20px;
+    padding: 0 20px;
+    text-align: center;
 }
 .social-links > a:hover {
     color: #505050;
+}
+@media(max-width: 1024px) {
+    .social-links {
+        background: #505050;
+        justify-content: space-around;
+    }
+    .social-links > a {
+        flex: 1;
+    }
+    .social-links > a:hover {
+        color: #70edab;
+        background: #606060;
+    }
 }

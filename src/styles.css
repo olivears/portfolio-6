@@ -455,12 +455,13 @@ body {
     font-size: 10px;
 }
 body {
-    background: #99FFE2 url('./assets/images/gradientBG.svg')fixed center no-repeat;
+    background: url('./assets/images/gradientBG.svg')fixed center no-repeat;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     height: 100%;
     color: #ffffff;
+    padding-bottom: 60px;
 }
 h1, h2, h3,
 h4, h5, h6 {
@@ -475,7 +476,7 @@ h4, h5, h6 {
   box-sizing: border-box;
 }
 
-@media(max-width:768px) {
+@media(max-width:768px){
   body {
     font-size: 1.4rem;
   }

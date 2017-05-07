@@ -3,10 +3,14 @@ body {
   background-size: cover;
 }
 .logo-fl {
-  height: 50%;
-  max-height: 400px;
+  max-height: 150px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+@media (min-width: 1024px) {
+  .logo-fl {
+    max-height: 250px;
+  }
 }

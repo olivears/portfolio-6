@@ -17,11 +17,13 @@
 .description {
     flex: 2;
     margin-right: 50px;
+    order: 1;
 }
 .image {
     flex: 1;
     min-width: 250px;
     max-width: 400px;
+    order: 2;
 }
 .image img {
     width: 60%;
@@ -35,10 +37,12 @@
     }
     .description {
         margin-right: 0; 
+        order: 2;
     }
     .image {
-        margin-top: 20px;
+        margin-bottom: 20px;
         width: 100%;
+        order: 1;
     }
     .image img {
         margin: 0 auto;

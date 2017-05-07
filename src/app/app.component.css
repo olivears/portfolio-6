@@ -11,7 +11,7 @@
         padding: 30px 60px;
     }
 }
-@media(min-width: 768px) {
+@media(min-width: 1013px) {
     .main-wrapper {
         padding: 60px 100px;
     }
