@@ -1,29 +1,33 @@
 .mouse-outline {
-    border: 2px solid white;
-    background: none;
-    width: 24px;
-    height: 40px;
-    border-radius: 12px;
-    padding-top: 6px;
-    position: fixed;
-    bottom: 10px;
-    right: 36px;
+  border: 2px solid white;
+  background: none;
+  width: 24px;
+  height: 40px;
+  border-radius: 12px;
+  padding-top: 6px;
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
 }
 .mouse-outline .mouse-scroll {
-    width: 4px;
-    height: 10px;
-    border-radius: 2px;
-    background: white;
-    margin: auto;
-    animation: mouse-scroll 3.4s infinite;
+  width: 4px;
+  height: 10px;
+  border-radius: 2px;
+  background: white;
+  margin: auto;
+}
+.mouse-outline:hover .mouse-scroll {
+  animation: mouse-scroll 1s infinite;
 }
 @keyframes mouse-scroll {
-    0%, 70%{
-        margin-top: 0px;
-        opacity: 1;
-    }
-    100% {
-        margin-top: 8px;
-        opacity: 0;
-    }
+  0% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+  100% {
+    margin-top: 8px;
+    opacity: 0;
+  }
 }

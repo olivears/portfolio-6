@@ -1,15 +1,21 @@
-<!-- Landing section start -->
-  <app-home class="main-wrapper"></app-home>
-<!-- Landing section end -->
+<!-- Logo start -->
+<div class="main-wrapper">
+  <img class="logo-fl" src="assets/images/logoFL.png" alt="Logo FL">
+  <app-mouse></app-mouse>
+</div>
+<!-- Logo end -->
+
+<!-- About me start -->
+<app-home id="app-home" class="main-wrapper"></app-home>
+<!-- About me end -->
 
 <!-- Projects start-->
 <app-project *ngFor="let project of projects" [data]="project" class="main-wrapper"></app-project>
 <!-- Projects end -->
 
 <!-- Navigation start -->
-<app-mouse></app-mouse>
 <!-- Navigation end -->
 
 <!-- Social media start -->
-  <app-social-media></app-social-media>
+<app-social-media></app-social-media>
 <!-- Social media end -->

@@ -18,5 +18,17 @@ export class AppComponent {
     image: 'fl-buttons-preview.png',
     imageAlt: 'Preview FL-buttons',
     tags: ['CSS 3', 'Librairie']
+  },
+  {
+    title: 'Gaming',
+    subtitle: 'Développement front-end',
+    text: `
+    <p>Le site de présentation de mes chaines Youtube et Twitch.</p>
+    <p>Vous pouvez y trouver la chaine en direct ainsi qu'une liste de mes dernières vidéos Youtube (récupérées depuis l'API).</p>
+    `,
+    link: 'https://florentlandure.com/project/gaming',
+    image: 'ascytra-preview.png',
+    imageAlt: 'Preview site streaming',
+    tags: ['Sass', 'jQuery', 'API']
   }];
 }

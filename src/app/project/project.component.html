@@ -1,4 +1,4 @@
-<div class="wrapper box-shadow">
+<div class="wrapper box-shadow" id="{{data.title}}">
   <div class="header">
     <div class="titles">
       <h1 class="title">{{data.title}}</h1>
@@ -11,14 +11,12 @@
 
   <div class="content">
 
-    <div class="description">
-      {{data.text}}
-    </div>
+    <div class="description" [innerHtml]="data.text"></div>
 
     <div class="image">
       <img src="../../assets/images/{{data.image}}" alt="{{imageAlt}}">
     </div>
 
   </div>
-  <a class="see-button box-shadow" href="{{link}}">Voir</a>
+  <a class="see-button box-shadow" href="{{data.link}}" target="_blank">Voir</a>
 </div>
