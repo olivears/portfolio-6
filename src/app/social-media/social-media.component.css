@@ -1,0 +1,18 @@
+:root {
+    display: block;
+}
+.social-links {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    height: 60px;
+    line-height: 60px;
+    transform: translateX(-50%);
+}
+.social-links > a {
+    color: inherit;
+    margin: 0 20px;
+}
+.social-links > a:hover {
+    color: #505050;
+}

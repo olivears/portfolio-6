@@ -1,0 +1,12 @@
+body {
+  background: #99FFE2 url('images/gradientBG.svg')fixed center no-repeat;
+  background-size: cover;
+}
+.logo-fl {
+  height: 50%;
+  max-height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
