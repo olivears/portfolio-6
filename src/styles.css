@@ -507,7 +507,7 @@ body {
   font-size: 10px;
 }
 body {
-  background: url('./assets/images/gradientBG.svg')fixed center no-repeat;
+  background: linear-gradient(324.89deg, #70EDAB 24.86%, #99FFE2 100%)fixed center no-repeat;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
