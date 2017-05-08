@@ -534,6 +534,13 @@ h6 {
   justify-content: space-between;
   padding: 25px;
 }
+a {
+  color: inherit;
+}
+a:hover,
+a:visited {
+  color: #808080;
+}
 * {
   box-sizing: border-box;
 }
@@ -541,6 +548,10 @@ h6 {
   -webkit-box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.info {
+  font-size: 1.6rem;
+  color: #808080;
 }
 @media(min-width:768px) {
   body {
