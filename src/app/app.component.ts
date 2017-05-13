@@ -16,7 +16,7 @@ export class AppComponent {
     <p>100% plug and play !</p>
     <p>Téléchargez la feuille de style puis utilisez les classes afin de créer d'incroyables boutons pour votre site web.</p>
     `,
-    link: 'https://florentlandure.com/project/fl-buttons',
+    link: 'https://dev.florentlandure.com/fl-buttons',
     image: 'fl-buttons-preview.png',
     imageAlt: 'Preview FL-buttons',
     tags: ['CSS 3', 'Librairie']
@@ -30,7 +30,7 @@ export class AppComponent {
     <p>Vous pouvez y trouver la chaine en direct ainsi qu'une liste de mes dernières vidéos Youtube.</p>
     <p>Les vidéos sont récupérés depuis l'API de <a target="_blank" href="https://developers.google.com/youtube/">Youtube</a>.</p>
     `,
-    link: 'https://florentlandure.com/project/gaming',
+    link: 'https://dev.florentlandure.com/gaming',
     image: 'ascytra-preview.png',
     imageAlt: 'Preview site streaming',
     tags: ['Sass', 'jQuery', 'API']
